@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="wholeThing">
+
+<h1 id="title">Rock * Paper * Scissors * Lizard * Spock</h1>
+<p id="instructions">This is a best of 3 series, which means you need 2 individual wins to win the series. The goal is for you to choose
+    an image below representing the item you would like. Based on the rules below, you will either win or lose. Do you have what it takes to
+    beat the computer? Good luck!</p>
+
+<div id="contentContainer">
+    <div id="rulesAndWinTotal">
+        <h2>The Rules Are As Follows:</h2>
+        <ul>
+            <li>Rock ---> Beats: Scissors and Lizard, but loses to: Spock and Paper</li>
+            <li>Paper ---> Beats: Rock and Spock, but loses to: Lizard and Scissors</li>
+            <li>Scissors ---> Beats: Paper and Lizard, but loses to: Spock and Rock</li>
+            <li>Lizard ---> Beats: Spock and Paper, but loses to: Scissors and Rock</li>
+            <li>Spock ---> Beats: Scissors and Rock, but loses to: Paper and Lizard</li>
+        </ul>
+        <div id="winTotal">
+            <div>Player Wins: <span id="playerCounter">0</span></div>
+            <div>Computer Wins: <span id="computerCounter">0</span></div>
+        </div>
+    </div>
+    <div id="pictureContainer">
+        <h2 id="clickToStart">-> CLICK AN IMAGE BELOW TO START <-</h2>
+        <img src="images/Lizard.jpg" height="200" width="200" alt="Lizard" id="lizard" data-value="4"/>
+        <img src="images/Paper.jpg" height="200" width="200" alt="Paper" id="paper" data-value="2"/>
+        <img src="images/Rock.jpg" height="200" width="200" alt="Rock" id="rock" data-value="1"/>
+        <img src="images/Scissors.jpg" height="200" width="200" alt="Scissors" id="scissors" data-value="3"/>
+        <img src="images/Spock.jpg" height="200" width="200" alt="Spock" id="spock" data-value="5"/>
+    </div>
+</div>
+<div id="results">
+<p id="overallWinner"></p>
+<p id="grandWinner"></p>
+</div>
+<footer>
+    Created By: Zachary Huba<br>
+    Javascript 2020
+</footer>
+
+</body>
+</html>

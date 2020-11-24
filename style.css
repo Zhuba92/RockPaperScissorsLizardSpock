@@ -1,0 +1,87 @@
+img
+{
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+body
+{
+    font-family: oswald, "Arial Narrow", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    background-color: coral;
+}
+
+#contentContainer
+{
+    background-color: lightblue;
+    padding: 18px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+p
+{
+    font-size: larger;
+}
+
+h1
+{
+    font-family: Bahnschrift, "Arial Narrow", sans-serif;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+}
+
+ul
+{
+    border-style: solid;
+    border-radius: 10px;
+    width: 40%;
+    background-color: coral;
+}
+
+#clickToStart
+{
+    text-align: center;
+}
+
+footer
+{
+    text-align: center;
+    font-style: italic;
+}
+
+#results p
+{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#overallWinner
+{
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+#grandWinner
+{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#results
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+
